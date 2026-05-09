@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #273557;
+    color: #f1f1f1;
+    font-family: "Newsreader", serif;
+    line-height: 1.7;
+}
+
+header {
+    background-color: #111827;
+    text-align: center;
+    padding: 25px;
+    border-bottom: 2px solid #38bdf8;
+}
+
+header span.logo {
+    font-size: 5rem;
+    color: #ececec;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #1e293b;
+    padding: 15px;
+}
+
+nav a {
+    color: #f1f1f1;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+    font-size: 2.25rem;
+}
+
+nav a:hover {
+    background-color: #38bdf8;
+    color: #0b0f19;
+    box-shadow: 0 0 10px #38bdf8;
+}
+
+main {
+    max-width: 1800px;
+    margin: 40px auto;
+    padding: 40px;
+
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    gap: 10px;
+}
+
+main h1 {
+    grid-column: 1 / -1;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-size: 4rem;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    transition: 0.3s ease;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 15px rgba(56, 189, 248, 0.4);
+    border-color: #38bdf8;
+}
+
+.card h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 15px;
+    font-size: 1.7rem;
+    background-color: #202d49;
+
+}
+
+.card h2 {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 15px;
+    font-size: 1.7rem;
+}
+
+.card h3 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 15px;
+    font-size: 1.7rem;
+    background-color: #202d49;
+}
+
+.card p {
+    font-size: 1.5rem;
+    color: #000000;
+}
+
+.card img {
+    border-radius: 12px;
+    margin: 15px 0;
+    border: 2px solid #334155;
+}
+
+.right-image {
+    float: right;
+    width: 150px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    aspect-ratio: 1904 / 2797;
+}
+
+.left-image {
+    float: left;
+    width: 200px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    aspect-ratio: 5000 / 2639;
+}
+
+.resources-card {
+    min-height: 100%;
+}
+
+.resources-card ul {
+    padding-left: 20px;
+    font-size: 1.5rem;
+}
+
+.resources-card li {
+    margin-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+    background-color: #111827;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 2px solid #38bdf8;
+}
+
+footer p {
+    margin: 5px 0;
+    color: #cbd5e1;
+    font-size: 2rem;
+}

@@ -3,10 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testing Filt to make sure its working</title>
+    <meta name="description" content="This is the personal webpage of John Sathya Arava, a student at BYU-Idaho majoring in Computer Science. The webpage includes information about John, his background, and resources for web development.">
+
+    <title>WDD 131 - Dynamic Web Fundamentals</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
-    <h1>Testing Filt to make sure its working</h1>
-    <p>This is a test page to verify that Filt is functioning correctly. If you can see this page, then Filt is working as expected.</p>
+    <header>
+        <span class="logo"> WDD 131 - Dynamic Web Fundamentals</span>
+    </header>
+    <nav>
+        <a href="https://www.linkedin.com/in/john-sathya-arava-4390892a7" target="_blank">LinkedIn</a>
+        <a href="https://byupw.instructure.com/profile" target="_blank">Canvas</a>
+        <a href="https://www.churchofjesuschrist.org/study/scriptures/ot/jer/1?lang=eng" target="_blank">Scripture</a>
+        <a href="#" target="_blank">Final Project</a>   
+    </nav>  
+
+    <main>
+        <h1 class="page-title"> John Sathya Arava</h1>
+        <section class="card about-card">
+            <div class="card-header">
+                <h1>About Me</h1>
+            </div>
+            <div class="card-content">
+                <img src="images/John S. Arava.jpg" alt="John S. Arava" class="right-image">
+                <p>
+                    My name is John. I was born in Hyderabad, India. 
+                    I am currently a student at BYU-Idaho, majoring in Computer Science. I have a passion for technology and programming. 
+                    Also I am a Mtech student at the university in my city.
+                    I love traveling and exploring new places. I enjoy learning about different cultures and trying new foods.
+                    In my free time, I like to play video games and watch movies.
+                </p>
+                <h2>Hyderabad, India</h2>
+                <hr>
+                <img src="images/Indian Flag.jpg" alt="Hyderabad, India" class="left-image">
+                <p>
+                    India is one of the fastest-growing technology and innovation hubs. 
+                    Known for its rich history, modern infrastructure, and thriving IT industry, Hyderabad blends tradition with cutting-edge development. 
+                    The city is home to global tech companies, prestigious universities, and a vibrant startup ecosystem, 
+                    making it an inspiring place for learning, creativity, and engineering innovation.
+                </p>
+            </div>
+        </section>
+        <section class="card resources-card">
+            <div class="card-header">
+                <h3>Web Dev Resources</h3>
+            </div>
+            <div class="card-content">
+                <ul>
+                    <li><a href="#" target="_blank">Dev.to Community</a></li>
+                    <li><a href="#" target="_blank">Smashing Magazine</a></li>
+                    <li><a href="#" target="_blank">Css Tricks</a></li>
+                    <li><a href="#" target="_blank">W3 Schools</a></li>
+                    <li><a href="#" target="_blank">Udemy</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+            <p>&copy;<span id="currentYear"></span> John S. Arava India.</p>
+            <p>last Modification: <span id="lastModified"></span></p>
+        </footer>
 </body>
 </html>
