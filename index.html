@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="This is the personal webpage of John Sathya Arava, a student at BYU-Idaho majoring in Computer Science. The webpage includes information about John, his background, and resources for web development.">
-
-    <title>WDD 131 - Dynamic Web Fundamentals</title>
+    <title>WDD 131 - Dynamic Web Fundamentals - John Sathya Arava</title>
+    <meta description="This is my personal webpage for WDD 131 - Dynamic Web Fundamentals class. It includes information about me, my background, and resources for web development.">
+    <meta author="John Sathya Arava">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -14,22 +15,25 @@
     <link rel="stylesheet" href="styles/base.css">
     <script src="scripts/getdates.js" defer></script>
 </head>
+
 <body>
     <header>
-        <span class="logo"> WDD 131 - Dynamic Web Fundamentals</span>
-    </header>
-    <nav>
+        <span id="course-title">WDD 131 - Dynamic Web Fundamentals</span>
+
+        <nav>
         <a href="https://www.linkedin.com/in/john-sathya-arava-4390892a7" target="_blank">LinkedIn</a>
         <a href="https://byupw.instructure.com/profile" target="_blank">Canvas</a>
         <a href="https://www.churchofjesuschrist.org/study/scriptures/ot/jer/1?lang=eng" target="_blank">Scripture</a>
         <a href="#" target="_blank">Final Project</a>   
-    </nav>  
+        </nav>
+    </header>  
 
     <main>
         <h1 class="page-title"> John Sathya Arava</h1>
+
         <section class="card about-card">
             <div class="card-header">
-                <h1>About Me</h1>
+                <h2>About Me</h2>
             </div>
             <div class="card-content">
                 <img src="images/John S. Arava.jpg" alt="John S. Arava" class="right-image">
@@ -40,7 +44,7 @@
                     I love traveling and exploring new places. I enjoy learning about different cultures and trying new foods.
                     In my free time, I like to play video games and watch movies.
                 </p>
-                <h2>Hyderabad, India</h2>
+                <h3>Hyderabad, India</h3>
                 <hr>
                 <img src="images/Indian Flag.jpg" alt="Hyderabad, India" class="left-image">
                 <p>
@@ -51,10 +55,13 @@
                 </p>
             </div>
         </section>
+
         <section class="card resources-card">
+            
             <div class="card-header">
-                <h3>Web Dev Resources</h3>
+                <h4>Web Dev Resources</h4>
             </div>
+
             <div class="card-content">
                 <ul>
                     <li><a href="#" target="_blank">Dev.to Community</a></li>
@@ -66,6 +73,7 @@
             </div>
         </section>
     </main>
+
     <footer>
             <p>&copy;<span id="currentYear"></span> John S. Arava India.</p>
             <p>last Modification: <span id="lastModified"></span></p>

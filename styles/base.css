@@ -4,155 +4,144 @@
     box-sizing: border-box;
 }
 
+/* ===== BODY ===== */
 body {
     background-color: #273557;
-    color: #f1f1f1;
+    color: white;
     font-family: "Newsreader", serif;
-    line-height: 1.7;
+    line-height: 1.6;
 }
 
+/* ===== HEADER ===== */
 header {
     background-color: #111827;
     text-align: center;
-    padding: 25px;
+    padding: 20px;
     border-bottom: 2px solid #38bdf8;
 }
 
-header span.logo {
-    font-size: 5rem;
-    color: #ececec;
+/* ===== COURSE TITLE ===== */
+#course-title {
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 
+/* ===== NAVIGATION ===== */
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 20px;
     background-color: #1e293b;
-    padding: 15px;
+    padding: 10px;
+    margin-top: 15px;
 }
 
 nav a {
-    color: #f1f1f1;
+    color: white;
     text-decoration: none;
-    padding: 10px 18px;
+    font-size: 2rem;
+    padding: 10px 15px;
     border-radius: 8px;
-    transition: 0.3s ease;
-    font-size: 2.25rem;
+    transition: 0.3s;
 }
 
 nav a:hover {
     background-color: #38bdf8;
-    color: #0b0f19;
-    box-shadow: 0 0 10px #38bdf8;
+    color: black;
 }
 
+/* ===== MAIN LAYOUT ===== */
 main {
-    max-width: 1800px;
-    margin: 40px auto;
-    padding: 40px;
+    max-width: 1600px;
+    margin: 30px auto;
+    padding: 20px;
 
     display: grid;
-    grid-template-columns: 5fr 3fr;
-    gap: 10px;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
 }
 
-main h1 {
+/* ===== PAGE TITLE ===== */
+.page-title {
     grid-column: 1 / -1;
     text-align: center;
-    color: #ffffff;
+    font-size: 3rem;
     margin-bottom: 10px;
-    font-size: 4rem;
 }
 
+/* ===== CARD ===== */
 .card {
-    background-color: #ffffff;
+    background-color: white;
+    color: black;
     padding: 20px;
     border-radius: 10px;
-    border: 1px solid #000000;
-    transition: 0.3s ease;
-    overflow: hidden;
 }
 
-.card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 0 15px rgba(56, 189, 248, 0.4);
-    border-color: #38bdf8;
-}
-
-.card h1 {
-    text-align: center;
-    color: #ffffff;
-    margin-bottom: 15px;
-    font-size: 1.7rem;
+/* ===== CARD HEADERS ===== */
+.card-header {
     background-color: #202d49;
-
-}
-
-.card h2 {
+    color: white;
+    padding: 10px;
     text-align: center;
-    color: #000000;
+    border-radius: 6px;
     margin-bottom: 15px;
-    font-size: 1.7rem;
 }
 
-.card h3 {
-    text-align: center;
-    color: #ffffff;
-    margin-bottom: 15px;
-    font-size: 1.7rem;
-    background-color: #202d49;
-}
-
-.card p {
+.card-header h1 {
     font-size: 1.5rem;
-    color: #000000;
 }
 
-.card img {
-    border-radius: 12px;
+/* ===== TEXT ===== */
+.card p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.card h2, .card h3, .card h4 {
+    text-align: center;
     margin: 15px 0;
-    border: 2px solid #334155;
 }
 
+/* ===== IMAGES ===== */
 .right-image {
     float: right;
     width: 150px;
     margin-left: 20px;
-    margin-bottom: 15px;
-    aspect-ratio: 1904 / 2797;
+    margin-bottom: 10px;
+    border-radius: 10px;
 }
 
 .left-image {
     float: left;
     width: 200px;
     margin-right: 20px;
-    margin-bottom: 15px;
-    aspect-ratio: 5000 / 2639;
+    margin-bottom: 10px;
+    border-radius: 10px;
 }
 
-.resources-card {
-    min-height: 100%;
-}
-
+/* ===== RESOURCE LIST ===== */
 .resources-card ul {
     padding-left: 20px;
-    font-size: 1.5rem;
 }
 
 .resources-card li {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
+.resources-card a {
+    color: #2563eb;
+}
+
+/* ===== FOOTER ===== */
 footer {
-    text-align: center;
     background-color: #111827;
+    text-align: center;
     padding: 20px;
-    margin-top: 40px;
+    margin-top: 30px;
     border-top: 2px solid #38bdf8;
 }
 
 footer p {
-    margin: 5px 0;
-    color: #cbd5e1;
     font-size: 2rem;
+    color: #cbd5e1;
 }
