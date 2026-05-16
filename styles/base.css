@@ -10,6 +10,10 @@ body {
     color: white;
     font-family: "Newsreader", serif;
     line-height: 1.6;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /* ===== HEADER ===== */
@@ -59,6 +63,8 @@ main {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 20px;
+
+    flex: 1;
 }
 
 /* ===== PAGE TITLE ===== */
