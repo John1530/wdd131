@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Incredible India with beautiful landscapes, cultural diversity, weather details, and important country information in a responsive web design project.">
+    <meta name="author" content="John S. Arava">
+    <title>Incredible India</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+
+    <!-- JavaScript -->
+    <script src="scripts/place.js" defer></script>
+
+    <!-- Favicon-->
+    <link rel="icon" href="images/favico.jpeg" type="image/png">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+        <h1>Incredible India</h1>
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+
+    <main class="container">
+
+
+        <!-- DATA CARD -->
+
+        <section class="card">
+
+            <h2>Data</h2>
+
+            <p><strong>Area:</strong> 3.28 million km²</p>
+
+            <p><strong>Population:</strong> 1.4 Billion</p>
+
+            <p><strong>Capital:</strong> New Delhi</p>
+
+            <p><strong>Languages:</strong> Hindi, English</p>
+
+            <p><strong>Currency:</strong> Indian Rupee</p>
+
+            <p><strong>Time Zone:</strong> Indian Standard Time</p>
+
+            <p><strong>Calling Code:</strong> +91</p>
+
+            <p><strong>Internet TLD:</strong> .in</p>
+
+        </section>
+
+
+        <!-- HERO IMAGE -->
+
+        <section class="hero">
+
+            <picture>
+
+                <source
+                    media="(min-width: 768px)"
+                    srcset="images/hero.webp">
+
+                <img
+                    src="images/taj-mahal.webp"
+                    alt="Scenic view of India">
+
+            </picture>
+
+        </section>
+
+
+        <!-- WEATHER CARD -->
+
+        <section class="card weather">
+
+            <h2>Weather</h2>
+
+            <img
+                src="images/weather.svg"
+                alt="Weather icon"
+                class="weather-icon">
+
+            <p><strong>Temperature:</strong> 32°C</p>
+
+            <p><strong>Conditions:</strong> Sunny</p>
+
+            <p><strong>Wind:</strong> 12 km/h</p>
+
+            <p><strong>Wind Chill:</strong>
+                <span id="windchill"></span>
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            &copy;
+            <span id="currentYear"></span>
+            🚀 John S. Arava 🚀 India
+        </p>
+
+        <p>
+            Last Modified:
+            <span id="lastModified"></span>
+        </p>
+
+    </footer>
+
+</body>
+</html>
