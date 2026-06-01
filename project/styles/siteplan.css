@@ -1,0 +1,32 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #0B3D91;
+}
+
+.color {
+    padding: 1rem;
+    margin: .5rem 0;
+    color: white;
+}
+
+.navy {
+    background: #0B3D91;
+}
+
+.sky {
+    background: #87CEEB;
+    color: black;
+}
+
+pre {
+    border: 1px solid #ccc;
+    padding: 1rem;
+}
