@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore modern aircraft technology and save your favorite aircraft.">
+    <meta name="author" content="John Sathya Arava">
+
+    <title>Aircraft Technology | Aerodynamics Hub</title>
+
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/main.js" defer></script>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+        <h1>Aerodynamics Hub</h1>
+    </div>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="forces.html">Forces of Flight</a></li>
+            <li><a href="aircraft.html" class="active">Aircraft Technology</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <section>
+        <h2>Modern Aircraft Technology</h2>
+
+        <p>
+            Aircraft technology has advanced dramatically over the last century.
+            Modern aircraft utilize lightweight materials, advanced avionics,
+            powerful engines, and aerodynamic designs to improve performance,
+            efficiency, and safety.
+        </p>
+    </section>
+
+    <section class="aircraft-grid">
+
+        <article class="aircraft-card">
+
+            <img
+                src="images/boeing737.webp"
+                alt="Boeing 737 aircraft"
+                loading="lazy">
+
+            <h3>Boeing 737</h3>
+
+            <p>
+                A widely used commercial passenger aircraft operated by airlines
+                around the world.
+            </p>
+
+            <button class="favorite-btn"
+                data-aircraft="Boeing 737">
+                Save as Favorite
+            </button>
+
+        </article>
+
+        <article class="aircraft-card">
+
+            <img
+                src="images/f35.webp"
+                alt="F-35 Lightning II fighter jet"
+                loading="lazy">
+
+            <h3>F-35 Lightning II</h3>
+
+            <p>
+                A fifth-generation stealth fighter aircraft used by several
+                modern air forces.
+            </p>
+
+            <button class="favorite-btn"
+                data-aircraft="F-35 Lightning II">
+                Save as Favorite
+            </button>
+
+        </article>
+
+    </section>
+
+    <section>
+
+        <h2>Your Favorite Aircraft</h2>
+
+        <div id="favoriteAircraft">
+            <p>No favorite aircraft selected.</p>
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Aerodynamics Hub | John Sathya Arava</p>
+
+    <p>
+        <a href="references.html">References</a>
+    </p>
+</footer>
+
+</body>
+</html>
